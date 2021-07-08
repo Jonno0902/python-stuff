@@ -6,5 +6,6 @@ def fib(x):
     else:
         return fib(x-1) + fib(x-2)
 
-for x in range(10):
-    print(fib(x))
+def fibSequence(i):
+    for x in range(i):
+        print(fib(x))
